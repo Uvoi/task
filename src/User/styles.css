@@ -1,0 +1,65 @@
+.userWrapper
+{
+    height: 75%;
+    width: 70%;
+    margin: 5% 10%;
+    display: flex;
+    justify-content: center;
+    column-gap: 4vw;
+    row-gap: 2vh;
+    flex-wrap: wrap;
+    background-color: #dedede;
+    padding: 7.5% 5%;
+    border-radius: 20px;
+}
+
+.profilePic
+{
+    min-height: 30vh;
+    max-height: 55vh;
+    min-width: 20vw;
+    max-width: 80vw;
+}
+
+.profilePic img
+{
+    object-fit:cover;
+    width: 100%;
+    height: 100%;
+}
+
+.userData
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5vh;
+}
+
+.userNameAndInfo h1
+{
+    font-size: clamp(25px, 5vmin, 30px);
+    font-weight: bold;
+}
+
+.userNameAndInfo p
+{
+    margin-top: 10px;
+    font-size: clamp(15px, 2.8vmin, 25px);
+}
+
+.userContactData
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    row-gap: 1.5vh;
+    column-gap: 5vw;
+}
+
+.userContactData h3
+{
+    font-size: clamp(16px, 3vmin, 26px);
+    font-weight: normal;
+    text-wrap: nowrap;
+}
