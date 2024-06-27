@@ -1,0 +1,36 @@
+.UsersGet
+{
+    height: 100%;
+    width: 100%;
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.users
+{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vh;
+    justify-content: center;
+
+}
+
+.users button
+{
+    font-size: clamp(15px, 3.5vmin, 20px);
+    background: none;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+
+.users button:hover
+{
+    background-color: #dbdbdb;
+    transition: all 0.3s;
+}

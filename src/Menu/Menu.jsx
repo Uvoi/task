@@ -6,8 +6,9 @@ const Menu = (props)=>
 {
     return(
         <div className='Menu'>
-            <a href="/user">User</a>
+            <a href="/user/&">User</a>
             <a href="/todo">ToDo</a>
+            <a href="/get_users">Get users</a>
         </div>
     );
 };
