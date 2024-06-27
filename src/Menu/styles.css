@@ -1,0 +1,27 @@
+.Menu
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: clamp(20px, 5vmin, 40px);
+    gap: 20px;
+    margin-top: 10%;
+}
+
+.Menu a
+{  
+    text-align: center;
+    width: 200px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid purple;
+    border-radius: 10px;
+    background-color: rgb(255, 184, 255);
+}
+
+.Menu a:hover
+{
+    background-color: rgb(255, 213, 255);
+}
