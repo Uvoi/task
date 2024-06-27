@@ -1,0 +1,48 @@
+.ToDoDeleteAll
+{
+    top: clamp(20px, 5vmin, 50px);
+    left: clamp(20px, 5vmin, 50px);
+    background-color: rgb(196, 0, 46);
+}
+
+.ToDoDeleteAll:hover
+{
+    background-color: rgb(255, 50, 98);
+}
+
+
+.newTask
+{
+    width: 90%;
+    display: flex;
+    gap: 10px;
+}
+
+.newTask textarea
+{
+    border: 2px solid rgb(207, 207, 125);
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 100%;
+    outline: none;
+}
+
+.newTask .ToDoItemBtn
+{
+    background: rgb(212, 255, 192);
+}
+
+.newTask .ToDoItemBtn:hover
+{
+    background: rgb(189, 255, 159);
+}
+
+.vis
+{
+    display: flex !important;
+}
+
+.hid
+{
+    display: none !important;
+}
